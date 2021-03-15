@@ -1,6 +1,7 @@
 import { Container, Row, Col, Card } from "react-bootstrap";
 import "../../style.css";
 import myphoto from "../../Assest/myphoto.jpg";
+import Github from "./Github";
 function About() {
   return (
     <Container fluid className="about-section">
@@ -67,6 +68,7 @@ function About() {
             <img src={myphoto} alt="about" className="img-fluid"></img>
           </Col>
         </Row>
+        <Github />
       </Container>
     </Container>
   );

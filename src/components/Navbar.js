@@ -2,7 +2,7 @@ import React from "react";
 import { Navbar, Nav, Container, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "../style.css";
-
+import new_resume from "../Assest/new resume.pdf";
 //const element = <FontAwesomeIcon icon={faCoffee} />;
 function NavBar() {
   return (
@@ -27,11 +27,7 @@ function NavBar() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto" defaultActiveKey="#home">
             <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/"
-                // onClick={() => updateExpanded(false)}
-              >
+              <Nav.Link as={Link} to="/">
                 <i class="fa fa-home" aria-hidden="true"></i> Home
               </Nav.Link>
             </Nav.Item>
@@ -46,11 +42,7 @@ function NavBar() {
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/resume"
-                //onClick={() => updateExpanded(false)}
-              >
+              <Nav.Link href={new_resume}>
                 <i class="fa fa fa-file-o" aria-hidden="true"></i>Resume
               </Nav.Link>
             </Nav.Item>
