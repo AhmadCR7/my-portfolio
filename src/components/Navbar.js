@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Navbar, Nav, Container, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "../style.css";
@@ -17,7 +17,7 @@ function NavBar() {
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {
-            //updateExpanded(expand ? false : "expanded");
+            //  updateExpanded(expand ? false : "expanded");
           }}
         >
           <span></span>
@@ -38,6 +38,11 @@ function NavBar() {
                 // onClick={() => updateExpanded(false)}
               >
                 <i class="fa fa-user" aria-hidden="true"></i> About
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link as={Link} to="/project">
+                <i className="fa fab fa-codepen"></i> Projects
               </Nav.Link>
             </Nav.Item>
 

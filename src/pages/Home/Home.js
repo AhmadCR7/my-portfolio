@@ -4,10 +4,12 @@ import "../../style.css";
 import Position from "./Position";
 import Home2 from "./Home2";
 import homepage from "../../Assest/homepage.svg";
-
+import Particles from "react-particles-js";
+import particles from "./particles";
 function Home() {
   return (
     <section>
+      <Particles params={particles} className="particle" />
       <Container fluid className="home-section" id="home">
         <Container className="home-content">
           <Row>
