@@ -6,11 +6,11 @@ function Position() {
       options={{
         strings: [
           "Nice to meet you! 😄",
-          "Internet Application Design & Development",
-          "Human-Computer Interaction; UI/UX",
-          "Database System Design",
-          "Software Engineering & Development",
+          "Full Stack Developer",
+          "Software Design & Development",
+          "Database Design & Development",
           "Computer Organization & Machine Structures",
+          "I can also do UI/UX",
         ],
         autoStart: true,
         loop: true,
