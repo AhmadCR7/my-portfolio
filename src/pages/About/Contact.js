@@ -1,7 +1,7 @@
 import React from "react";
 import emailjs from "emailjs-com";
 import "./Contact.css";
-import { useForm } from "react-hook-form";
+
 function Contact() {
   function sendEmail(e) {
     e.preventDefault();
@@ -16,8 +16,11 @@ function Contact() {
         (result) => {
           console.log(result.text);
         },
-        (error) => console.log(error.text)
+        (error) => {
+          console.log(error.text);
+        }
       );
+    e.target.reset();
   }
 
   return (
