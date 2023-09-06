@@ -6,7 +6,7 @@ function Position() {
       options={{
         strings: [
           "Nice to meet you! 😄",
-          "Full Stack Developer",
+          "I graduated from SFSU in May 2021",
           "Software Design & Development",
           "Database Design & Development",
           "Computer Organization & Machine Structures",
