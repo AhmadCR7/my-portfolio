@@ -5,7 +5,8 @@ import "../../style.css";
 import database from "../../Assest/database.webp";
 import sfsumarket from "../../Assest/sfsumarket.png";
 import shopper from "../../Assest/shopper.png";
-import Particles from "react-particles-js";
+import Particles from 'react-particles';
+
 import particles from "../Home/particles";
 import Contact from "../About/Contact";
 function Projects() {

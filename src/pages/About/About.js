@@ -3,7 +3,8 @@ import "../../style.css";
 import myphoto from "../../Assest/myphoto.jpg";
 import Github from "./Github";
 import Contact from "./Contact";
-import Particles from "react-particles-js";
+import Particles from 'react-particles';
+
 import particles from "../Home/particles";
 function About() {
   return (

@@ -4,7 +4,7 @@ import "../../style.css";
 import Position from "./Position";
 import Home2 from "./Home2";
 import homepage from "../../Assest/homepage.svg";
-import Particles from "react-particles-js";
+import Particles from 'react-particles';
 import particles from "./particles";
 function Home() {
   return (
