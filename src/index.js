@@ -5,7 +5,7 @@ import App from "./App";
 import "bootstrap/dist/css/bootstrap.css";
 import "font-awesome/css/font-awesome.min.css";
 
-import { HashRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 ReactDOM.render(
   <React.StrictMode>
     <Router>
