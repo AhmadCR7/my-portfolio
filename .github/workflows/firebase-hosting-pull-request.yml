@@ -16,6 +16,8 @@ jobs:
 
     - name: Build
       run: npm run build  # or your build command here
+      env:
+        CI: true
 
     - name: Deploy to Firebase
       uses: wzieba/Firebase-Distribution-Github-Action@v1
