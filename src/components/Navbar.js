@@ -2,7 +2,7 @@ import React from "react";
 import { Navbar, Nav, Container, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "../style.css";
-import new_resume from "../Assest/new resume.pdf";
+import new_resume from "../Assest/Resume.pdf";
 //const element = <FontAwesomeIcon icon={faCoffee} />;
 function NavBar() {
   return (
