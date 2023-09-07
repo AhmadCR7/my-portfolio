@@ -5,7 +5,6 @@ import Github from "./Github";
 import Contact from "./Contact";
 import Particles from 'react-particles';
 
-import particles from "../Home/particles";
 function About() {
   return (
     <section>

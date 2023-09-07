@@ -28,7 +28,7 @@ function NavBar() {
           <Nav className="ml-auto" defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} to="/">
-                <i class="fa fa-home" aria-hidden="true"></i> Home
+                <i className="fa fa-home" aria-hidden="true"></i> Home
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
@@ -37,7 +37,7 @@ function NavBar() {
                 to="/about"
                 // onClick={() => updateExpanded(false)}
               >
-                <i class="fa fa-user" aria-hidden="true"></i> About
+                <i className="fa fa-user" aria-hidden="true"></i> About
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
@@ -48,7 +48,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link href={new_resume}>
-                <i class="fa fa fa-file-o" aria-hidden="true"></i>Resume
+                <i className="fa fa fa-file-o" aria-hidden="true"></i>Resume
               </Nav.Link>
             </Nav.Item>
 
@@ -58,7 +58,7 @@ function NavBar() {
                 target="_blank"
                 className="fork-btn-inner"
               >
-                <i class="fa fa-github" aria-hidden="true"></i>
+                <i className="fa fa-github" aria-hidden="true"></i>
               </Button>
             </Nav.Item>
           </Nav>

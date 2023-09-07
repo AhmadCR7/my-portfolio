@@ -5,16 +5,16 @@ import "../../style.css";
 import database from "../../Assest/database.webp";
 import sfsumarket from "../../Assest/sfsumarket.png";
 import shopper from "../../Assest/shopper.png";
-import Particles from 'react-particles';
 
-import particles from "../Home/particles";
+
+
 import Contact from "../About/Contact";
 function Projects() {
   return (
     <section>
       {" "}
       <Container fluid className="project-section">
-        <Particles params={particles} className="particle" />
+        
         <Container>
           <h1 className="project-heading">
             My Recent <strong className="purple">Projects </strong>
