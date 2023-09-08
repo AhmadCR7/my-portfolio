@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { db } from '../../Firebase'; // Make sure this import path is correct
-import { collection, addDoc } from "firebase/firestore";
+import { collection, addDoc } from "../../Firebase/firestore";
 import "./Contact.css";
 function Contact() {
   const [formData, setFormData] = useState({
