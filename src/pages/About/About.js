@@ -3,13 +3,12 @@ import "../../style.css";
 import myphoto from "../../Assest/myphoto.jpg";
 import Github from "./Github";
 import Contact from "./Contact";
-import Particles from 'react-particles';
+
 
 function About() {
   return (
     <section>
       <Container fluid className="about-section">
-        <Particles params={particles} className="particle" />
         <Container>
           <Row style={{ justifyContent: "center", padding: "10px" }}>
             <Col
