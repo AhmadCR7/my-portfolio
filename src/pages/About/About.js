@@ -1,12 +1,19 @@
-import { Container, Row, Col, Card } from "react-bootstrap";
-import "../../style.css";
-import myphoto from "../../Assest/myphoto.jpg";
-import Github from "./Github";
-import Contact from "./Contact";
+//import { Container, Row, Col, Card } from "react-bootstrap";
+//import "../../style.css";
+//import myphoto from "../../Assest/myphoto.jpg";
+//import Github from "./Github";
+//import Contact from "./Contact";
 
+import React from "react";
 
 function About() {
   return (
+    <div>
+      <h1>About</h1>
+    </div>
+    
+
+    /*
     <section>
       <Container fluid className="about-section">
         <Container>
@@ -77,6 +84,7 @@ function About() {
         </Container>
       </Container>
     </section>
+    */
   );
 }
 
