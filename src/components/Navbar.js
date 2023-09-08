@@ -32,15 +32,6 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/about"
-                // onClick={() => updateExpanded(false)}
-              >
-                <i className="fa fa-user" aria-hidden="true"></i> About
-              </Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
               <Nav.Link as={Link} to="/project">
                 <i className="fa fab fa-codepen"></i> Projects
               </Nav.Link>
