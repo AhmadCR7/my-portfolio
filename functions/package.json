@@ -13,6 +13,7 @@
   },
   "main": "index.js",
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
     "firebase-admin": "^11.8.0",
     "firebase-functions": "^4.3.1",
     "node-fetch": "^3.3.2",

@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import { db } from '../../Firebase'; // Make sure this import path is correct
-import { collection, addDoc } from "firebase/firestore";
+import emailjs from '@emailjs/browser';
 import "./Contact.css";
 function Contact() {
   const [formData, setFormData] = useState({
@@ -17,21 +16,20 @@ function Contact() {
     });
   }
 
-  async function sendEmail(e) {
+  function sendEmail(e) {
     e.preventDefault();
 
-    // Reference to Firestore collection
-    const submissionsRef = collection(db, "submissions");
+    emailjs
+      .send("service_x25bnco", "template_f2f205a", formData, "user_soF1ktupuUmh91OJ0gGPy")
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
 
-    // Add data to Firestore
-    try {
-      const docRef = await addDoc(submissionsRef, formData);
-      console.log("Form data submitted successfully with ID: ", docRef.id);
-    } catch (error) {
-      console.error("Error submitting form data:", error);
-    }
-
-    // Reset the form
     setFormData({
       user_name: "",
       user_email: "",
